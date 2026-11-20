@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 760" role="img" aria-labelledby="title desc">
+  <title id="title">Manzana orgánica</title>
+  <desc id="desc">Silueta verde y carmín de una manzana con tallo y hoja.</desc>
+  <defs>
+    <radialGradient id="skin" cx="38%" cy="28%" r="75%"><stop offset="0" stop-color="#e96d4d"/><stop offset=".45" stop-color="#b42f35"/><stop offset="1" stop-color="#551d2b"/></radialGradient>
+    <linearGradient id="leaf" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#557b43"/><stop offset="1" stop-color="#a4bd65"/></linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="13"/></filter>
+  </defs>
+  <ellipse cx="310" cy="700" rx="240" ry="25" fill="#180f19" opacity=".35" filter="url(#soft)"/>
+  <path d="M318 164c-3-62 8-101 62-130 12-6 28 5 23 18-17 42-33 85-27 128z" fill="#2b2724"/>
+  <path d="M365 83c50-56 126-57 175-27-31 65-92 91-164 71-16-4-22-29-11-44z" fill="url(#leaf)"/>
+  <path d="M310 178c-78-55-190-25-238 65-75 141-15 356 109 449 67 50 117 10 139 9 24 0 72 40 138-9 125-93 185-308 108-449-49-90-160-120-239-65-7 5-10 5-17 0z" fill="url(#skin)" stroke="#351b2b" stroke-width="12"/>
+  <path d="M141 302c-25 82-12 164 24 214" fill="none" stroke="#ef9a6e" stroke-width="16" opacity=".38" stroke-linecap="round"/>
+  <path d="M474 270c34 65 38 126 24 182" fill="none" stroke="#250f22" stroke-width="18" opacity=".35" stroke-linecap="round"/>
+</svg>

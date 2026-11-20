@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#111014">
+  <title>HACEME VIBRAR — todavía puedo</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Fallback para Safari antiguo / iPhone 5: evita clamp() e inset(). */
+    @media only screen and (max-width:568px), only screen and (max-device-width:568px){
+      .screen{top:0;right:0;bottom:0;left:0;padding:28px}
+      .grain{top:-30%;right:-30%;bottom:-30%;left:-30%}
+      .poster-background{top:0;right:0;bottom:0;left:0}
+      .poster-typography{top:0;right:0;bottom:0;left:0}
+      .title{font-size:80px}.subtitle{font-size:34px}.poster-meta{font-size:16px}
+      .touch-prompt{right:28px}.impact-copy{font-size:38px}
+      .screen-report{padding-left:28px;padding-right:28px}
+      .stat-number{font-size:132px}.stat-unit{font-size:34px}.stat-copy{font-size:25px}.reset{font-size:26px!important}
+    }
+  </style>
+  <style>
+    .poster-background{position:absolute;inset:0;z-index:0;background-color:#8f1118;background-image:linear-gradient(rgba(38,5,8,.08),rgba(38,5,8,.08)),url("assets/poster-background-textless.png");background-position:center;background-size:contain;background-repeat:no-repeat}
+    .poster-typography{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;z-index:1;pointer-events:none;transform:translate(-115vw,-22px)}
+    .screen-splash>.eyebrow{display:none}
+    .screen-splash .splash-copy,.screen-splash .poster-meta{display:none}
+    body .screen-impact{background:#a30f16!important}
+    .screen-splash{background-image:none!important}
+    .poster-typography.text-enter{animation:textEnter 1.7s cubic-bezier(.42,0,.58,1) both}
+    .poster-typography.text-exit{animation:textExit 1.7s cubic-bezier(.42,0,.58,1) both}
+    .screen-splash.attention .poster-background{animation:splashJolt 4.4s ease both}
+    @keyframes textEnter{0%{transform:translate(-115vw,-22px)}100%{transform:translate(0,0)}}
+    @keyframes textExit{0%{transform:translate(0,0)}100%{transform:translate(115vw,20px)}}
+    @keyframes splashJolt{0%,100%{transform:translate(0,0) rotate(0) scale(1)}10%{transform:translate(-12px,5px) rotate(-.7deg) scale(1.018)}22%{transform:translate(15px,-7px) rotate(.75deg) scale(1.02)}34%{transform:translate(-16px,6px) rotate(-.8deg) scale(1.018)}46%{transform:translate(14px,-5px) rotate(.65deg) scale(1.016)}58%{transform:translate(-11px,4px) rotate(-.55deg) scale(1.012)}70%{transform:translate(8px,-3px) rotate(.4deg) scale(1.008)}82%{transform:translate(-4px,2px) rotate(-.2deg) scale(1.004)}}
+    .stat-screen{justify-content:space-between}.stat-kicker{font:12px monospace;letter-spacing:.12em;color:#716d67}.stat-content{max-width:920px;margin:auto 0}.stat-number{font-size:clamp(118px,27vw,300px);font-weight:400;letter-spacing:-.1em;line-height:.8;margin:0;color:#b20f17}.stat-unit{font-size:clamp(32px,5vw,58px);font-style:italic;margin:20px 0 0;letter-spacing:-.05em;line-height:.95}.stat-copy{font-size:clamp(24px,4vw,38px);line-height:1.02;max-width:700px;margin:28px 0 0;letter-spacing:-.045em}.stat-source{font:12px/1.35 monospace;color:#716d67;max-width:620px}.stat-source a{color:inherit}.reset{align-self:flex-start!important;margin:32px 0 0!important;padding:26px 36px;border:2px solid #b20f17!important;border-radius:999px;text-decoration:none!important;font-size:clamp(24px,4vw,40px)!important;letter-spacing:-.045em;color:#b20f17!important;transition:background .2s ease,color .2s ease,transform .2s ease}.reset:hover,.reset:focus{background:#b20f17;color:var(--paper)!important;transform:translateY(-3px)}
+  </style>
+  <style>
+    .screen-report .main-phrase{font-size:clamp(42px,8vw,100px);line-height:.9;letter-spacing:-.06em;margin:0 0 28px;color:#a30f16}
+    .screen-report .stat-source{font-size:clamp(16px,2vw,24px);line-height:1.08;max-width:760px}
+    .screen-report .reset{position:absolute!important;top:28px;right:28px;margin:0!important;padding:0!important;border:0!important;border-radius:0!important;background:none!important;font-size:14px!important;letter-spacing:.08em;color:#b20f17!important;text-decoration:underline!important}
+  </style>
+</head>
+<body>
+  <main id="experience" class="experience state-splash" role="application" aria-label="Fuera de temporada — iPhone 5">
+    <div class="grain" aria-hidden="true"></div>
+    <section id="splash" class="screen screen-splash" aria-labelledby="splash-title">
+      <div class="poster-background" aria-hidden="true"></div>
+      <p class="eyebrow text-reveal">IPHONE 5 <span>•</span> 8805</p>
+      <div class="apple-wrap" aria-hidden="true"><img src="assets/apple-splash.svg" alt=""></div>
+      <img class="poster-typography" src="assets/poster-typography-overlay.png" alt="Haceme vibrar. Todavía puedo.">
+      <p class="poster-meta text-reveal">Fuera<br>de temporada<br><span>—</span><br>Dispositivos<br>impenitentes</p>
+      <div class="splash-copy">
+        <h1 id="splash-title" class="title text-reveal">Haceme<br>vibrar</h1>
+        <p class="subtitle text-reveal">Todavía puedo</p>
+      </div>
+      <button id="begin" class="touch-prompt" type="button"><span class="dot"></span><span>tocá para continuar</span></button>
+    </section>
+
+    <section class="screen screen-impact" aria-live="assertive" aria-label="Impacto">
+      <div class="impact-mark">×</div>
+      <p class="eyebrow">ENTRADA REGISTRADA</p>
+      <p class="impact-copy">... todavía no acabé...</p>
+      <p class="impact-detail">respuesta háptica simulada <span>·</span> señal inestable</p>
+    </section>
+
+    <section class="screen screen-report stat-screen" aria-labelledby="stat-title">
+      <p class="stat-kicker">SEGUNDA VIDA / IPHONE 5 / 8805</p>
+      <div class="stat-content">
+        <p id="stat-title" class="main-phrase">No sabés las cosas que aún te haría</p>
+        <p class="stat-source">Los cibercirujas te acogerán con gusto.</p>
+        <a id="reset" class="reset" href="#">De nuevo</a>
+      </div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
