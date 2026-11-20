@@ -1,0 +1,5 @@
+192.168.0.4 - - [20/Nov/2026 12:58:21] "GET / HTTP/1.1" 200 -
+192.168.0.4 - - [20/Nov/2026 12:58:21] "GET /assets/poster-background-textless.png HTTP/1.1" 200 -
+192.168.0.4 - - [20/Nov/2026 12:58:21] "GET /assets/poster-typography-overlay.png HTTP/1.1" 200 -
+192.168.0.4 - - [20/Nov/2026 12:58:21] code 404, message File not found
+192.168.0.4 - - [20/Nov/2026 12:58:21] "GET /favicon.ico HTTP/1.1" 404 -

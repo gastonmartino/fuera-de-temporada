@@ -88,4 +88,5 @@
     event.preventDefault();
     resetExperience();
   }, false);
+  document.getElementById("stat-title").addEventListener("click", resetExperience, false);
 }());

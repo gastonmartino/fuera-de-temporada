@@ -4,7 +4,7 @@ Segunda página del proyecto, con los mismos tres estados que la página iPhone 
 
 1. Splash vertical con fondo azul y manzanas, textos separados como imagen transparente, entrada/salida periódica y sacudida intensa del fondo.
 2. Estado rojo/azul de impacto con sonido y el texto `... todavía no acabé...`.
-3. La frase `Si querés lo volvemos a hacer`, un dato breve —`Las fundaciones pueden darte nuevas ideas.`— y el enlace superior `De nuevo`.
+3. La frase `Si querés lo volvemos a hacer`, seguida por `Hagamoslo de nuevo, pero más sostenible esta vez. Muchas ONGs tienen iniciativas para promover usos más sustentables` y el enlace superior `Hagámoslo de nuevo`.
 
 Ejecutar desde esta carpeta:
 
